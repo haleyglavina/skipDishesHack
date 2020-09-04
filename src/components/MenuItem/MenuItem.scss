@@ -12,8 +12,8 @@
   &__img {
     width: 86px;
     height: 69px;
-    mask-image: cover;
     margin-right: 20px;
+    object-fit: cover;
   }
 
   &__top-row {

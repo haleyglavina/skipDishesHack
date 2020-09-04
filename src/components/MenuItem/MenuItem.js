@@ -1,5 +1,4 @@
 import React from 'react';
-import saladImg from '../../assets/salad.jpg';
 import './MenuItem.scss';
 
 function MenuItem({item}) {
@@ -7,7 +6,7 @@ function MenuItem({item}) {
     <>
       <div className="thick-divider"></div>
       <div className="item">
-        <img src={saladImg} className="item__img" />
+        <img src={item.image} className="item__img" />
         <div className="item__text">
           <div className="item__top-row">
             <h3 className="item__name">{item.meal}</h3>
