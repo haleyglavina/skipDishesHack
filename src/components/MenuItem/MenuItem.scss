@@ -1,11 +1,53 @@
-.item {
-  border: 1px solid #666;
-  margin: 1rem 0.5rem;
-  display: flex;
+.thick-divider {
+  height: 2px;
+  width: 100%;
+  background-color: #C4C4C4;
+}
 
+.item {
+  margin: 14px 20px;
+  display: flex;
+  align-items: center;
 
   &__img {
-    width: 180px;
-    height: 130px;
+    width: 86px;
+    height: 69px;
+    mask-image: cover;
+    margin-right: 20px;
+  }
+
+  &__top-row {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  &__name {
+    margin: 0;
+    padding-left: 0.7rem;
+    position: relative;
+
+    &::before {
+      background-image: url(/static/media/forkLogo.138fc6bd.svg);
+      background-size: 10px 20px;
+      background-repeat: no-repeat;
+      content: "";
+      width: 10px;
+      height: 22.91px;
+      position: absolute;
+      left: 0px;
+  }
+  }
+
+  &__price {
+    margin: 0;
+    margin-bottom: 9px;
+  }
+
+  &__description {
+    font-weight: normal;
+    font-size: 12px;
+    text-align: left;
   }
 }

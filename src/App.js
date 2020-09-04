@@ -15,7 +15,7 @@ function App() {
   const applyFilter = (newFilter) => {
     setCurrFilter(newFilter);
     setFilteredMenu(menuList.filter( item => {
-      return true;
+      return item.filters[newFilter];
     }))
   }
 
