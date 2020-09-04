@@ -1,0 +1,33 @@
+.info {
+  border-radius: 10px;
+  margin-top: -2rem;
+  background-color: white;
+
+  &__text * {
+    text-align: left;
+    margin: 1rem 0 0 1rem;
+  }
+
+  &__name {
+    font-size: 18px;
+    padding: 1rem 0 0 0;
+  }
+
+  &__address {
+    color: #7F7F7F;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 0.5rem;
+  }
+
+  &__delivery {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.delivery__emphasis {
+
+}

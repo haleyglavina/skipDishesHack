@@ -1,0 +1,31 @@
+.select-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+
+  &__option {
+    border-bottom: 4px solid white;
+    font-weight: bold;
+    font-size: 16px;
+    color: #7F7F7F;
+    padding-bottom: 0.5rem;
+
+    &--curr {
+      border-bottom: 4px solid #3DCC8E;
+      color: black;
+      padding-left: 0.7rem;
+      position: relative;
+
+      &::before {
+        background-image: url('../../assets/forkLogo.svg');
+        background-size: 10px 20px;
+        background-repeat: no-repeat;
+        content: "";
+        width: 10px;
+        height: 22.91px;
+        position: absolute;
+        left: 0px;
+      }
+    }
+  }
+}

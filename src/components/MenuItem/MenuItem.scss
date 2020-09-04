@@ -1,0 +1,11 @@
+.item {
+  border: 1px solid #666;
+  margin: 1rem 0.5rem;
+  display: flex;
+
+
+  &__img {
+    width: 180px;
+    height: 130px;
+  }
+}
