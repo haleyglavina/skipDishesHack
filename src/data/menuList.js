@@ -1,4 +1,3 @@
-import salad from '../assets/salad.jpg';
 import porkCutlet from '../assets/pork-cutlet.jpg';
 import crispyTofu from '../assets/crispy-tofu.jpg';
 import coldSoba from '../assets/cold-soba.jpg';

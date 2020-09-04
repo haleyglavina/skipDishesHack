@@ -24,13 +24,13 @@ function App() {
       <div className="hero">
         <div className="hero__top-bar">
           <div className="hero__icon-box">
-            <img src={exit} className="hero__icon" />
+            <img src={exit} className="hero__icon" alt='exit'/>
           </div>
           <div className="hero__text">
 
           </div>
           <div className="hero__icon-box">
-            <img src={save} className="hero__icon" />
+            <img src={save} className="hero__icon" alt='save'/>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ function MenuItem({item}) {
     <>
       <div className="thick-divider"></div>
       <div className="item">
-        <img src={item.image} className="item__img" />
+        <img src={item.image} className="item__img" alt='menuItem'/>
         <div className="item__text">
           <div className="item__top-row">
             <h3 className="item__name">{item.meal}</h3>

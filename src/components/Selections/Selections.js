@@ -11,7 +11,7 @@ function Selections({currFilter, applyFilter}) {
       <div className={currFilter === 1 ? "select-bar__option select-bar__option--curr" : "select-bar__option"} onClick={() => applyFilter(1)}>Vegetarian</div>
       <div className={currFilter === 2 ? "select-bar__option select-bar__option--curr" : "select-bar__option"} onClick={() => applyFilter(2)}>Vegan</div>
       <div className={currFilter === 3 ? "select-bar__option select-bar__option--curr" : "select-bar__option"} onClick={() => applyFilter(3)}>Halal</div>
-      <img className="select-bar__arrow" src={downArrow} />
+      <img className="select-bar__arrow" src={downArrow} alt='arrow'/>
     </div>
   );
 }

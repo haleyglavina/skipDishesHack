@@ -6,8 +6,8 @@ function AllItems({filteredMenu}) {
 
   return (
     <div className="menu">
-      {filteredMenu.map(item => 
-        <MenuItem item={item} />
+      {filteredMenu.map((item, i) => 
+        <MenuItem item={item} key={i}/>
       )}
     </div>
   );
